@@ -36,9 +36,16 @@
 
 | Project | What it is | Results |
 |---|---|---|
+| 🚁 **[frontier-fly](https://github.com/alexnieves-cs/frontier-fly)**<br><sub>TypeScript · three.js · Rapier · public · [live demo](https://alexnieves-cs.github.io/frontier-fly/)</sub> | FrontierBench: a benchmark for drones that explore buildings they have never seen, and the browser simulator it runs on, with a search-and-rescue autopilot, published baselines and an in-browser scoreboard with flight replays | Five published exploration methods, a random walk and my planners fly the same test seeds on **8** tracks · [tech report](https://alexnieves-cs.github.io/frontier-fly/frontier-fly-report.pdf) |
 | 🛰️ **denied-signal-stack**<br><sub>Python · C++ · 🔒 private, demo on request</sub> | GPS-denied drone localization: OpenVINS visual-inertial odometry, an 18-state error-state EKF, satellite map matching, and integrity monitoring (HPL/VPL, RAIM) | **1.18 m** median RMSE with GPS denied · spoof detection in **1.8–3.8 s** (median 2.8 s) · **0** hazardously misleading epochs · **1,227** tests passing<br><sub>Simulation results: 9 scenarios × 5 seeds</sub> |
-| 🖥️ **[terminal-canvas](https://github.com/alexnieves-cs/terminal-canvas)**<br><sub>Electron · React · TypeScript · public</sub> | A macOS app where Claude Code and Codex agents run in real terminals on an infinite canvas, with agent hand-offs and tmux persistence | Shipped **v6.0.0**, with a visual-regression test suite |
+| 🖥️ **[terminal-canvas](https://github.com/alexnieves-cs/terminal-canvas)**<br><sub>Electron · React · TypeScript · public</sub> | A macOS app where Claude Code and Codex agents run in real terminals on an infinite canvas, with agent hand-offs and tmux persistence | Shipped **v6.2.0**, with a visual-regression test suite |
 | 💳 **Steward**<br><sub>Swift · SwiftUI · backend · 🔒 company work</sub> | A cross-issuer rewards decision engine, plus a booking matrix that prices 7 payment methods per trip leg | Company work at Steward Technologies |
+
+**More public projects**
+
+- 🎮 **[propwash-fpv](https://github.com/alexnieves-cs/propwash-fpv)**: a browser FPV drone simulator with Acro mode, freestyle scoring and ghost races ([live demo](https://alexnieves-cs.github.io/propwash-fpv/))
+- 🏎️ **[drift-school](https://github.com/alexnieves-cs/drift-school)**: draw a racetrack and watch RC cars train on it with PPO, in the browser ([live demo](https://alexnieves-cs.github.io/drift-school/))
+- 🔍 **[ccxray](https://github.com/alexnieves-cs/ccxray)**: a local-only CLI that shows where your Claude Code tokens go and what to change first
 
 <img src="assets/divider.svg" width="100%" alt=""/>
 
